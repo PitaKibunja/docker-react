@@ -6,7 +6,7 @@ before_install:
   - docker build -t pita/docker-react -f Dockerfile.dev .
 
 script:  
-  - docker run pita/docker-react npm run test -- --coverage
+  - docker run -e CI=true pita/docker-react npm run test -- --coverage
 
 deploy:
   provider: elasticbeanstalk
