@@ -15,8 +15,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          learn whatever you would like
+          learn react
         </a>
+        <a>kenya</a>
       </header>
     </div>
   );
